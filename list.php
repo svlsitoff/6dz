@@ -1,16 +1,20 @@
-{
-	"Тест№1":{
-		"qwestion1":"Ваше имя?",
-		"qwestion2":"Ваша фамилия"
-	}
-}{
-	"Тест№2":{
-		"qwestion1":"Ваше имя?",
-		"qwestion2":"Ваша фамилия"
-	}
-}{
-	"Тест№1":{
-		"qwestion1":"Ваше имя?",
-		"qwestion2":"Ваша фамилия"
-	}
+<?php 
+$list = scandir('downloads');
+foreach ($list as  $value) {
+	if ($value!=='.' && $value !=='..') {
+		
+	echo "$value";
+	echo "<br>";
 }
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>список загруженных тестов</title>
+</head>
+<body>
+<a href="admin.php">админка</a><br>
+<a href="test.php">тест</a><br>
+</body>
+</html>
