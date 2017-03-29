@@ -15,6 +15,7 @@ $fdata_lab = $formdata['label'];
 <title>тест</title>
 </head>
 <body>
+введите номер теста в адресную строку браузера на пример ?var=1<br><br><br>
 <form action="result.php" method="post" >
 <label for="<?= $fdata ?>" ><?=$fdata_lab ?></label><br>
 <input name="test_var" value="<?=$var?>" hidden><br>
