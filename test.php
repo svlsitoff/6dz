@@ -22,5 +22,6 @@ $fdata_lab = $formdata['label'];
 <input type="submit" name="go" value="Проверить"><br>
 </form>
 <a href="list.php">список</a><br>
+<a href="admin.php">админка</a><br>
 </body>
 </html>
